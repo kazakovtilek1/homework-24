@@ -6,7 +6,7 @@ export function MainPage () {
     return (
         <>
             <Title text="Hello world"/>
-            <About/>
+            <About info={{title: "Some Title", body:"Some body"}} />
         </>
 
     )

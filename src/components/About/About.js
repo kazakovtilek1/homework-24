@@ -1,5 +1,4 @@
-export function About () {
-    let info = {title: "Some Title", body:"Some body"}
+export function About ({info}) {
     return (
         <>
             <h2>{info.title}</h2>
